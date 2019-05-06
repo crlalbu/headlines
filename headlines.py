@@ -38,10 +38,10 @@ def home():
     
     # get customized currency based on user input or default
     currency_from = get_value_with_fallback("currency_from")
-    currency_from = DEFAULTS['currency_from']
+    #currency_from = DEFAULTS['currency_from']
 
     currency_to = get_value_with_fallback("currency_to")
-    currency_to = DEFAULTS['currency_to']
+    #currency_to = DEFAULTS['currency_to']
 
     rate, currencies = get_rate(currency_from, currency_to)
     
